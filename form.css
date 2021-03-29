@@ -1,0 +1,129 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background-color: lightgray;
+}
+
+.container
+{
+	width: 800px;
+	margin: 100px auto;
+	box-shadow: 1px 2px 7px black;
+	min-height: 385px;
+
+}
+
+
+.signup
+{
+	width: 400px;
+	background-color: white;
+	padding-top:50px;
+	padding-bottom: 50px;
+	float: left;
+}
+.h1
+{
+	margin-left:10%;
+}
+input[type='text'],input[type='email'],input[type='password']
+{
+	width:80%;
+	margin-left:10%;
+	height:35px;
+	border-width:0px 0px 2px 0px;
+	margin-top:15px;
+	background-color: unset;
+}
+input[type='submit']
+{
+	width:40%;
+	margin-left:10%;
+	height:35px;
+	
+	margin-top:15px;
+	background-color: #F44236;
+	border-style: none;
+	color: white;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px black;
+}
+.social
+{
+	width: 400px;
+	background-image:url("image.jpeg");
+	min-height: 50px;
+	float: left;
+	padding-top:50px;
+	padding-bottom: 58px;
+	color: white;
+}
+.h2,.h3
+{
+	text-align: center;
+}
+.or
+{
+	position: relative;
+    display: inline-block;
+    text-align: center;
+	width:40px;
+	height:40px;
+	padding-top: 10px;
+	border-radius:20px;
+	background-color: #F1EEF1;
+	color: gray;
+	left:-20px;
+	top:75px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.face
+{
+	width: 70%;
+	margin: 15px auto;
+	height: 35px;
+	background-color: #32508E;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px black;
+}
+
+.twitter
+{
+	width: 70%;
+	margin: 15px auto;
+	height: 35px;
+	background-color: #55ACEF;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px black;
+}
+.google
+{
+	width: 70%;
+	margin: 15px auto;
+	height: 35px;
+	background-color: #DD4C39;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px black;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
